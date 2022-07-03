@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center space-x-4">
     <!-- Ícone do MenuItem -->
-    <div class="bg-orange-500 p-2 rounded-lg">
+    <div class="bg-gray-700 p-2 rounded-lg hover:bg-orange-500 cursor-pointer transition duration-100">
       <component :is="icon" class="w-4 h-4" />
     </div>
     <span>
